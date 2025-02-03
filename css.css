@@ -1,0 +1,58 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: "Inter", serif;
+}
+.container{
+    margin: 0 auto;
+    max-width: 1220px;
+}
+header{
+    background: hsla(256, 2%, 16%, 1);
+    padding: 15px 0;
+}
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.menus{
+    display: flex;
+    list-style: none;
+    gap: 30px;
+}
+.menus li a{
+    color: white;
+    text-decoration: none;
+}
+h1{
+    font-size: 88px;
+    font-weight: 300;
+    line-height: 93px;
+    text-align: center;
+    margin-top: 114px;
+}
+.card{
+    width: 396px;
+    height: 396px;
+    gap: 30px;
+    text-align: center;
+    margin: 30px 0;
+    margin-top: 114px;
+}
+.card h3{
+    margin: 15px 0;
+}
+.ota{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+footer{
+    background: hsla(256, 2%, 16%, 1);
+    padding: 15px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
